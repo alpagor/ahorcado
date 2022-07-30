@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/pizarra.jpg") no-repeat center;
+    background-size: cover;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 25px;
+    color: white;
+}
+main{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,.7);
+}
+#img_palo{
+    width: 200px;
+}
+
+#palabra_a_adivinar{
+    line-height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 25px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; /* sin esto por ser un elemento inline no tomaría el width*/
+}
+
+#letras{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+}
+
+
+
